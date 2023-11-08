@@ -1,0 +1,138 @@
+.App {
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.body-select-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px #000000;
+    width: auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.user-list {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 700px;
+    height: 50vh;
+} 
+
+.user-list ul {
+    height: 40vh;
+    overflow-y: auto;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: auto;
+}
+
+.list-group-1 {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.list-group-1 li{
+    padding: 0 25px;
+    box-shadow: 0px 1px 15px #00000042;
+}
+
+.user-item:hover {
+    background-color: #f0f0f0;
+}
+
+.add-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}  
+
+.body_user-img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.body_user-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.selected-user-img{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.selected-user-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user_info{
+    display: flex;
+    align-items: center;
+}
+.user_info span{
+    margin-left: 35px;
+}
+
+.list-seected-user{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button-selected{
+    width: 100%;
+}
+
+.selected-user{
+    height: 50vh;
+    width: 25vw;
+}
+.list-selected-user{
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    height: 32vh;
+}
+.list-selected-user li {
+    display: flex;
+    align-items: center;
+}
+.list-selected-user p {
+    margin-left: 15px;
+}
+.body-list-user, .group-users h2{
+    text-align: center;
+}
