@@ -4,13 +4,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* text-align: center; */
 }
 .body-select-user{
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 10px #000000;
+    box-shadow: 0px 0px 10px #0000007c;
     width: auto;
     padding: 40px;
     box-sizing: border-box;
@@ -51,6 +51,10 @@
 .list-group-1 li{
     padding: 0 25px;
     box-shadow: 0px 1px 15px #00000042;
+    border-radius: 20px;
+}
+.list-group-1 li:not(:last-child){
+    margin-right: 25px;
 }
 
 .user-item:hover {
